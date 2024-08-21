@@ -2,12 +2,13 @@
 public class SiswaTester {
     public static void main(String[] args) {
         //membuat Object
-        //namaClass namaObject = new Consutructor();
+        //namaClass namaObject = new Constructor();
         Siswa davin = new Siswa();
         Siswa angga = new Siswa();
         Siswa rafi = new Siswa();
         Siswa rabani = new Siswa();
         Siswa dimas = new Siswa();
+        Siswa felix = new Siswa(14, "Felix", 80);
 
         davin.id = 8;
         davin.nama = "Davin";
@@ -23,16 +24,68 @@ public class SiswaTester {
         dimas.ipk = 86.8;
 
 
-
-
-
         davin.print();
         angga.print();
         rafi.print();
         rabani.print();
         dimas.print();
+        felix.print();
 
-       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

@@ -11,6 +11,13 @@ public class Siswa {
         nama = "kosong";
         ipk = 0.0;
     }
+    //Cnstrustor Parameter
+    public Siswa(int i,String n, double k ) {
+        id = i;
+        nama = n; 
+        ipk = k;
+    }
+
 
     //Getter
     //Setter
